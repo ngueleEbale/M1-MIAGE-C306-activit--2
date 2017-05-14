@@ -1,0 +1,16 @@
+Starting audit...
+[ERROR] /home/atejo/work/a2/src/miage/GrilleImplTest.java:0: Manquant fichier package-info.java. [JavadocPackage]
+[ERROR] /home/atejo/work/a2/src/miage/GrilleImplTest.java:2: L'utilisation des import.* est prohibé - org.junit.Assert.*. [AvoidStarImport]
+[ERROR] /home/atejo/work/a2/src/miage/GrilleImplTest.java:30:9: La méthode 'testGetDimension' n'est pas conçue pour être dérivée - il faut la déclarer abstraite, finale ou la laisser vide. [DesignForExtension]
+[ERROR] /home/atejo/work/a2/src/miage/GrilleImplTest.java:37:9: La méthode 'testSetValue' n'est pas conçue pour être dérivée - il faut la déclarer abstraite, finale ou la laisser vide. [DesignForExtension]
+[ERROR] /home/atejo/work/a2/src/miage/GrilleImplTest.java:56: La ligne excède 80 caractères. [LineLength]
+[ERROR] /home/atejo/work/a2/src/miage/GrilleImplTest.java:63:9: La méthode 'testGetValue' n'est pas conçue pour être dérivée - il faut la déclarer abstraite, finale ou la laisser vide. [DesignForExtension]
+[ERROR] /home/atejo/work/a2/src/miage/GrilleImplTest.java:70: La ligne excède 80 caractères. [LineLength]
+[ERROR] /home/atejo/work/a2/src/miage/GrilleImplTest.java:73: La ligne excède 80 caractères. [LineLength]
+[ERROR] /home/atejo/work/a2/src/miage/GrilleImplTest.java:74: Line has trailing spaces. [RegexpSingleline]
+[ERROR] /home/atejo/work/a2/src/miage/GrilleImplTest.java:76: La ligne excède 80 caractères. [LineLength]
+[ERROR] /home/atejo/work/a2/src/miage/GrilleImplTest.java:76: Line has trailing spaces. [RegexpSingleline]
+[ERROR] /home/atejo/work/a2/src/miage/GrilleImplTest.java:86:9: La méthode 'testComplete' n'est pas conçue pour être dérivée - il faut la déclarer abstraite, finale ou la laisser vide. [DesignForExtension]
+[ERROR] /home/atejo/work/a2/src/miage/GrilleImplTest.java:94:9: La méthode 'testPossible' n'est pas conçue pour être dérivée - il faut la déclarer abstraite, finale ou la laisser vide. [DesignForExtension]
+Audit done.
+Checkstyle ends with 13 errors.
