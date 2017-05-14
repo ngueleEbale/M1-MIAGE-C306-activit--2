@@ -1,7 +1,7 @@
 package miage;
 /**
  * Interface Grille de Sudoku.
- * @author atejo
+ * @author atejo and clauvis
  *
  */
 public interface Grille {
