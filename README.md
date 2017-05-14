@@ -1,2 +1,2 @@
-# M1-MIAGE-C306-activit-2
+# M1-MIAGE-C306-activité-2
 Activité 3 : sudoku
