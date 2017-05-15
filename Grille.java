@@ -20,7 +20,7 @@ public interface Grille {
 	/**
 	* @return largeur/hauteur de la grille.
 	*/
-	public int getDimension();
+	int getDimension();
 	/**
 	* Affecte une valeur dans la grille.
 	**@param x position x dans la grille
@@ -33,7 +33,7 @@ public interface Grille {
 	* pas un caractere autorise
 	* ('1',...,'9')
 	*/
-	public void setValue(int x, int y, char value)
+	void setValue(int x, int y, char value)
 			throws IllegalArgumentException;
 	/**
 	* Recupere une valeur de la grille.
@@ -43,13 +43,13 @@ public interface Grille {
 	* @return valeur dans la case x,y
 	* @throws IllegalArgumentException si x ou y sont hors bornes (0-8)
 	*/
-	public char getValue(int x, int y) throws IllegalArgumentException;
+	char getValue(int x, int y) throws IllegalArgumentException;
 	/**
 	* Test si une grille est terminee.
 	**
 	@return true si la grille est complete
 	*/
-	public boolean complete();
+	boolean complete();
 	/**
 	* Test si une valeur est possible dans la grille.
 	*  par rapport a ce qu'elle.
@@ -65,6 +65,6 @@ public interface Grille {
 	* ('1',...,'9',..)
 	* @return true si possible false sinon
 	*/
-	public boolean possible(int x, int y, char value)
+	boolean possible(int x, int y, char value)
 						throws IllegalArgumentException;
 }
