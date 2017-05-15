@@ -3,7 +3,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 /**
- * @author nguele ebale ebenny atejo.
+ * @author Minoumissek clauvis and nguele atejo.
  * classe contenant les tests de la classe GrilleImpl
  */
 public class GrilleImplTest {
