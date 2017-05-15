@@ -71,9 +71,9 @@ public class GrilleImplTest {
 					// y hors bornes
 					grille.setValue(4, 17, '2');
 					fail("Une exception aurait dûe être levée sur y");
-					// x et y hors bornes 
+					// x et y hors bornes
 					grille.setValue(-1, 11, '2');
-					fail("Une exception aurait dûe être levée sur x et y");			
+					fail("Une exception aurait dûe être levée sur x et y");	
 				} catch (IllegalArgumentException e) {
 				}
 				// tests sur les valeurs
