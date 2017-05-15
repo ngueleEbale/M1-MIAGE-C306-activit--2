@@ -1,7 +1,7 @@
 package miage;
 /**
  * Implementation de l'interface Grille.
- * @author atejo
+ * @author atejo and clauvis
  */
 public class GrilleImpl implements Grille {
 	/**
